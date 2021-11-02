@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Catatan Alif</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Catatan Alif</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Pengaturan</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Edit Profil</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_about">About Me</string>
+
+    <string name="menu_logout">Keluar</string>
+    <string name="save">Simpan</string>
+    <string name="update">Ubah</string>
+    <string name="delete">Hapus</string>
+    <string name="discard">Buang</string>
+    <string name="edit">Edit</string>
+
+    <string name="quote_header">Judul</string>
+    <string name="quote">Tulis catatan kamu\n\n\n\n\n\n\n</string>
+    <string name="title_activity_note_edit">NoteEditActivity</string>
+    <string name="login">Masuk!</string>
+    <string name="hint_enter_password">Masukan Kata Sandi</string>
+
+    <string name="f_name">Nama Depan</string>
+    <string name="l_name">Nama Belakang</string>
+    <string name="email">Email</string>
+    <string name="pwd">Kata Sandi</string>
+    <string name="c_pwd">Konfirmasi Kata Sandi</string>
+    <string name="auto_log_des">Anda dapat menonaktifkan fitur Login dengan mengatifkan fitur Login Otomatis</string>
+    <string name="auto_login">Masuk Otomatis</string>
+    <string name="noteHeader">Judul catatan</string>
+    <string name="noteContent">Tulis catatan kamu</string>
+    <!--<string name="createdOn">Dibuat Pada</string>-->
+
+    <string name="welcomeNote">Aplikasi Catatan Alif</string>
+    <string name="welcomeSubNote">Amankan Catatanmu Disini!</string>
+
+    <string name="txtAboutHeading"></string>
+    <string name="txtVersion"></string>
+    <string name="nim"></string>
+
+</resources>

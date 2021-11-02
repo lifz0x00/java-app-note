@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondary"
+        android:textSize="28sp"
+        android:text="@string/login"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/welcome_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondary_light"
+        android:textSize="16sp"
+        android:textAlignment="center"/>
+
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="@string/hint_enter_password"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:textColor="@color/secondary_light"
+        android:background="@drawable/edit_text_style"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:importantForAutofill="no"
+        tools:targetApi="o"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@color/design_default_color_primary"
+        android:onClick="login"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/login"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

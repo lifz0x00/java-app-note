@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtAboutHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="App Catatan Alif Version 1.0"
+        android:textColor="@color/secondary_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M Alif Kurniawan"
+        android:textColor="@color/secondary_dark"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="173112700650039"
+        android:textColor="@color/secondary_dark"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Programming R.01"
+        android:textColor="@color/secondary_dark"
+        android:textSize="20sp" />
+</LinearLayout>

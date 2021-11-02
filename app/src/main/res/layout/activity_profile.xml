@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity"
+    android:padding="20dp"
+    android:layout_gravity="center_vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/f_name"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/profile_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/edit_text_style"
+        android:inputType="text"
+        android:autofillHints="no"
+        tools:targetApi="o"
+        android:hint="@null"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/l_name"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/profile_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/edit_text_style"
+        android:padding="5dp"
+        android:inputType="text"
+        android:autofillHints="no"
+        tools:targetApi="o"
+        android:hint="@null"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/email"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/profile_email"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/edit_text_style"
+        android:padding="5dp"
+        android:inputType="textEmailAddress"
+        android:autofillHints="no"
+        tools:targetApi="o"
+        android:hint="@null"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/pwd"
+        android:textSize="18sp"
+        android:hint="@null"/>
+
+    <EditText
+        android:id="@+id/profile_password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_style"
+        android:padding="5dp"
+        android:autofillHints="no"
+        android:hint="@null"
+        tools:targetApi="o"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/c_pwd"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/profile_confirmed_password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/edit_text_style"
+        android:padding="5dp"
+        android:inputType="textPassword"
+        android:autofillHints="no"
+        tools:targetApi="o"
+        android:hint="@null"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:layout_weight="1.5"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="update"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/update"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+
+</LinearLayout>
